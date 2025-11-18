@@ -1,0 +1,330 @@
+{
+	"id": "c15dc7ff-23be-4950-9218-26cac269020f",
+	"name": "internet-shopping-test",
+	"timestamp": "2025-11-18T09:56:14.228Z",
+	"collection_id": "34816197-249a2eb9-1554-404d-ae52-b5279ccf5b72",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-11-18T09:56:03.510Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6a48014d-c7a9-4d44-badb-019c3f31b19b",
+			"name": "获取所有产品列表",
+			"url": "https://automationexercise.com/api/productsList",
+			"time": 1111,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1111
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "86757379-c42f-4250-a52c-ea77343867cf",
+			"name": "post到所有产品信息",
+			"url": "https://automationexercise.com/api/productsList",
+			"time": 858,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				858
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f0869993-cf55-438c-a187-7832433dceca",
+			"name": "获取所有品牌列表",
+			"url": "https://automationexercise.com/api/brandsList",
+			"time": 877,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				877
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c177d058-958c-488d-b55e-ef68204ed751",
+			"name": "put到所有品牌列表",
+			"url": "https://automationexercise.com/api/brandsList",
+			"time": 343,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				343
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "480c7075-7437-4a60-9a41-abe4aa160a56",
+			"name": "post to search product",
+			"url": "https://automationexercise.com/api/searchProduct",
+			"time": 442,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				442
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c3353006-3a98-4c67-ab2c-11cd0fae6a67",
+			"name": "post不带参数search_product",
+			"url": "https://automationexercise.com/api/searchProduct",
+			"time": 912,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				912
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bd75076c-7f4b-4be5-9b7b-dbe2af1b9d0c",
+			"name": "post验证具有有效信息的登录",
+			"url": "https://automationexercise.com/api/verifyLogin",
+			"time": 1407,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1407
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e616a400-8721-457d-a19c-5f3b791532e7",
+			"name": "post验证登录信息时不带邮箱",
+			"url": "https://automationexercise.com/api/verifyLogin",
+			"time": 336,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				336
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "09653d31-8379-42f2-822c-4b38128f0e88",
+			"name": "删除以验证登录",
+			"url": "https://automationexercise.com/api/verifyLogin",
+			"time": 886,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				886
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7890d84e-c85b-449e-bcb3-02a55bf2abf0",
+			"name": "post验证信息登录无效",
+			"url": "https://automationexercise.com/api/verifyLogin",
+			"time": 342,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				342
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e1229258-8edd-4a4b-969b-31c232976a0f",
+			"name": "post以创建/注册用户账户",
+			"url": "https://automationexercise.com/api/createAccount",
+			"time": 389,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				389
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "194f0c80-ab56-4d0d-8378-1f848684f19b",
+			"name": "delete user",
+			"url": "https://automationexercise.com/api/deleteAccount",
+			"time": 385,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				385
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "09bf6b74-277b-47ad-8df3-06f99898d3b6",
+			"name": "update",
+			"url": "https://automationexercise.com/api/updateAccount",
+			"time": 335,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				335
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "616fae8a-7133-4b71-a702-3552d3525431",
+			"name": "get user account detail by email",
+			"url": "https://automationexercise.com/api/getUserDetailByEmail?email=test1234@qq.com",
+			"time": 387,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				387
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 9010,
+	"collection": {
+		"requests": [
+			{
+				"id": "6a48014d-c7a9-4d44-badb-019c3f31b19b",
+				"method": "GET"
+			},
+			{
+				"id": "86757379-c42f-4250-a52c-ea77343867cf",
+				"method": "POST"
+			},
+			{
+				"id": "f0869993-cf55-438c-a187-7832433dceca",
+				"method": "GET"
+			},
+			{
+				"id": "c177d058-958c-488d-b55e-ef68204ed751",
+				"method": "PUT"
+			},
+			{
+				"id": "480c7075-7437-4a60-9a41-abe4aa160a56",
+				"method": "POST"
+			},
+			{
+				"id": "c3353006-3a98-4c67-ab2c-11cd0fae6a67",
+				"method": "POST"
+			},
+			{
+				"id": "bd75076c-7f4b-4be5-9b7b-dbe2af1b9d0c",
+				"method": "POST"
+			},
+			{
+				"id": "e616a400-8721-457d-a19c-5f3b791532e7",
+				"method": "POST"
+			},
+			{
+				"id": "09653d31-8379-42f2-822c-4b38128f0e88",
+				"method": "DELETE"
+			},
+			{
+				"id": "7890d84e-c85b-449e-bcb3-02a55bf2abf0",
+				"method": "POST"
+			},
+			{
+				"id": "e1229258-8edd-4a4b-969b-31c232976a0f",
+				"method": "POST"
+			},
+			{
+				"id": "194f0c80-ab56-4d0d-8378-1f848684f19b",
+				"method": "DELETE"
+			},
+			{
+				"id": "09bf6b74-277b-47ad-8df3-06f99898d3b6",
+				"method": "PUT"
+			},
+			{
+				"id": "616fae8a-7133-4b71-a702-3552d3525431",
+				"method": "GET"
+			}
+		]
+	}
+}
